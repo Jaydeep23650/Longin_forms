@@ -1,0 +1,70 @@
+*{
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cc111100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    background-image: url(./pexels-hasanalbari-1640572.jpg);
+    /* background-image: url('path/to/your/image.jpg'); */
+    background-size: cover; /* Adjust to your preference */
+    /* background-repeat: no-repeat; */
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+form{
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
+    background-color: #14121262;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    padding: 20px;
+}
+form input{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.719);
+    /* border: none; */
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    color: #ccc;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    /* outline: none; */
+    }
+    
+form button{
+    width: 100%;
+    height: 40px;
+    /* border: none; */
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    /* background-color: rgba(0, 0, 0, 0.596); */
+    padding: 5px;
+    color: #ccc;
+    border-radius: 5px;
+}
+form h1{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    margin: 5px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
